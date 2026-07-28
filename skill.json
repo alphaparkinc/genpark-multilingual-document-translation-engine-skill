@@ -1,0 +1,27 @@
+{
+  "name": "genpark-multilingual-document-translation-engine-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Context-aware multilingual document translation engine.",
+  "author": "genpark",
+  "category": "productivity",
+  "tags": [
+    "productivity",
+    "genpark-skill",
+    "ai-agent"
+  ],
+  "inputs": {
+    "text": {
+      "type": "str"
+    },
+    "target_lang": {
+      "type": "str"
+    }
+  },
+  "outputs": {
+    "translated_text": {
+      "type": "str"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
